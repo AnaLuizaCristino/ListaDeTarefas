@@ -7,7 +7,7 @@
     padding: 20px;
     width: 300px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     background: #1a1a1a;
     color: #fff;
     border-radius: 7px;
@@ -19,7 +19,6 @@ form {
 
 p {
 margin-top: 20px;
-text-align: center;
 }
 
 input {
@@ -43,14 +42,16 @@ font: normal normal 13px/16px "Open sans", sans-serif;
 #button:hover {
     cursor: pointer;
     opacity: .8;}
-
+    ol {border: 1px solid #fff;}
     ol {padding-left: 20px;}
     ol li {padding: 5px;color:#fff;}
     ol li:nth-child(even)
-    .strike{text-decoration: line-through;}
+    .strike{text-decoration: line-through;
+    }
     
     li:hover {
-        cursor: pointer;
+        opacity: .5;
+        color: #fff;
     }
 
 body {
