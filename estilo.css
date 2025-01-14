@@ -1,74 +1,83 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400); /* Importa uma fonte personalizada */
 
 .container {
-    border: 5px solid #000;
-    height: 90px;
-    padding-top: 10px;
-    padding: 20px;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 100px;
-    background: #1a1a1a;
-    color: #fff;
-    border-radius: 7px;
+    border: 5px solid #000; /* Borda preta */
+    height: 90px; /* Altura do contêiner */
+    padding-top: 10px; /* Espaço no topo */
+    padding: 20px; /* Espaço interno */
+    width: 300px; /* Largura fixa */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Espaço no topo da página */
+    background: #1a1a1a; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    border-radius: 7px; /* Cantos arredondados */
 }
 
 form {
-    display: inline-block;
+    display: inline-block; /* Alinha o formulário em linha */
 }
 
 p {
-margin-top: 20px;
+margin-top: 20px; /* Espaçamento acima do texto */
 }
 
 input {
-margin-top: 5px;
-padding:  4px 15px 4px 5px;
-border: 2px solid black;
-font: normal normal 13px/16px "Open sans", sans-serif;
+margin-top: 5px; /* Espaço acima do campo de texto */
+padding: 4px 15px 4px 5px; /* Espaçamento interno */
+border: 2px solid black; /* Borda preta */
+font: normal normal 13px/16px "Open sans", sans-serif; /* Define a fonte */
 }
 
-#button{
-    display: inline-block;
-    background-color:#fff;
-    color:#000;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align:center;
-    margin-top:2px;
-    padding: 5px 15px;
-    }
+#button {
+    display: inline-block; /* Botão em linha */
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    font-weight: bold; /* Texto em negrito */
+    border-radius: 5px; /* Cantos arredondados */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 2px; /* Espaço acima do botão */
+    padding: 5px 15px; /* Espaçamento interno */
+}
 
 #button:hover {
-    cursor: pointer;
-    opacity: .8;}
-    ol {border: 1px solid #fff;}
-    ol {padding-left: 20px;}
-    ol li {padding: 5px;color:#fff;}
-    ol li:nth-child(even)
-    .strike{text-decoration: line-through;
-    }
-    
-    li:hover {
-        opacity: .5;
-        color: #fff;
-    }
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+    opacity: .8; /* Reduz a opacidade no hover */
+}
 
-body {
-    justify-items: center;
-    margin-top: 50px;
-    font: normal normal 13px/16px "Open sans", sans-serif;
-    background: #001542;
+ol {
+    border: 1px solid #fff; /* Borda branca ao redor da lista */
+    padding-left: 20px; /* Espaço interno à esquerda */
+}
+
+ol li {
+    padding: 5px; /* Espaço interno nos itens */
+    color: #fff; /* Texto branco */
+}
+
+ol li:nth-child(even) .strike { 
+    text-decoration: line-through; /* Decoração de texto riscado (não está sendo utilizada) */
+}
+
+li:hover {
+    opacity: .5; /* Reduz a opacidade ao passar o mouse */
+    color: #fff; /* Garante a cor branca no hover */
 }
 
 li {
-    transition: opacity 0.5s ease, height 0.5s ease, padding 0.5s ease;
+    transition: opacity 0.5s ease, height 0.5s ease, padding 0.5s ease; /* Animações suaves */
 }
 
 li.removendo {
-    opacity: 0;
-    height: 0;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+    opacity: 0; /* Invisível ao remover */
+    height: 0; /* Altura zero ao remover */
+    padding: 0; /* Sem espaço interno ao remover */
+    margin: 0; /* Sem margem ao remover */
+    overflow: hidden; /* Esconde o conteúdo excedente */
+}
+
+body {
+    justify-items: center; /* Centraliza os itens */
+    margin-top: 50px; /* Espaço no topo */
+    font: normal normal 13px/16px "Open sans", sans-serif; /* Define a fonte */
+    background: #001542; /* Fundo azul escuro */
 }

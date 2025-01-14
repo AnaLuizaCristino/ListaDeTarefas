@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que a página seja responsiva -->
 
-    <title>Lista de Tarefas</title>
+    <title>Lista de Tarefas</title> <!-- Título da página -->
 
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css"> <!-- Importa o arquivo CSS -->
 </head>
 
-<script src="script.js"></script>
-
+<script src="script.js"></script> <!-- Importa o arquivo JavaScript -->
 <body>
     
-    <div class="container">
-        <h2>Lista de Tarefas</h2>
-        <p><em>Clique na lista duas vezes para remover algum item</em></p>
+    <div class="container"> <!-- Contêiner principal -->
+        <h2>Lista de Tarefas</h2> <!-- Título da lista -->
+        <p><em>Clique na lista duas vezes para remover algum item</em></p> <!-- Instrução para o usuário -->
     </div>
 
-    <form name="listatarefas">
-        <input type="text" name="listaritens" placeholder="Adicione sua tarefa aqui"> 
+    <form name="listatarefas"> <!-- Formulário para entrada de tarefas -->
+        <input type="text" name="listaritens" placeholder="Adicione sua tarefa aqui"> <!-- Campo de entrada de texto -->
     </form>
 
-        <div id="button">Adicionar</div>
+        <div id="button">Adicionar</div> <!-- Botão para adicionar tarefas -->
         <br/>
-        <ol></ol>
+        <ol></ol> <!-- Lista ordenada onde as tarefas serão exibidas -->
 
 </body>
 </html>
